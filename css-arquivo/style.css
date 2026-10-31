@@ -1,0 +1,36 @@
+/*
+seletor = uma tag html, id html, classe (css)
+*/
+seletor {
+    propriedade: valor
+}
+
+body {
+    background-color: #fff8eb;
+    color: black;
+}
+
+h1 {
+    color: rgb(250, 100, 150);
+}
+
+#batata {
+    color: fuchsia;
+}
+
+.fruta {
+    font-size: 100px;
+}
+
+.fruta a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+
+}

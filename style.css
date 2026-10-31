@@ -1,0 +1,32 @@
+
+/*
+    Afeta todos os H2 do html
+*/
+h1, h2, h3, #id, .card {
+    color: wheat;
+}
+
+/*
+    Afeta somente a classe
+*/
+.card {
+    color: aliceblue;
+}
+
+/*
+    Afeta somente a tag HTML com aquele id
+*/
+#contato {
+
+}
+
+/*
+    Afeta somente as tags <a> que são filhas de uma outra tag que contem a classe .menu
+*/
+.menu a {
+
+}
+
+a[href^="mailto:"] {
+
+}

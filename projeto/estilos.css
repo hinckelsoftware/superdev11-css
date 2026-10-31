@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaf4;
+    font-size: 1rem;
+    color: #31271f;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: .75rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+    line-height: 1.3;
+}
+
+a {
+    color: #6f3b24;
+}
+
+a:hover {
+    color: #a84d22;
+}
+
+.container {
+    width: 90%;
+    max-width: 1080px;
+}
+
+header {
+    background-color: #2e211b;
+    color: #fff8f0;
+    padding: 1rem 0;
+}
+
+.topo-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.marca {
+    color: #fff8f0;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.marca:hover {
+    color: #f0b989;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: #fff8f0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .3rem .4rem;
+}
+
+.menu a:hover {
+    color: #f0b989;
+}
+
+.hero {
+    background: linear-gradient(135deg, #f9e5cb, #d69e68);
+    padding: 5rem 0;
+}
+
+.hero-conteudo {
+    max-width: 720px;
+}
+
+.sobretitulo {
+    color: #744023;
+    font-size: .9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+}
+
+.intro {
+    font-size: 1.15rem;
+    max-width: 58ch;
+}
+
+.botao {
+    background-color: #63351f;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: .65rem;
+    padding: .8rem 1.25rem;
+    margin-top: 1rem;
+}
+
+.botao:hover {
+    background-color: #452315;
+    color: white;
+}
+
+.botao-secundario {
+    background-color: #fff8f0;
+    color: #452315;
+}
+
+.botao-secundario:hover {
+    background-color: #f4dcbf;
+    color: #452315;
+}
+
+.secao {
+    padding: 3.5rem 0;
+}
+
+.descricao-secao {
+    color: #68594e;
+    margin-bottom: 1.75rem;
+}
+
+.cards {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e7cbb4;
+    border-radius: .85rem;
+    box-shadow: 0 7px 20px rgba(65, 37, 17, .08);
+    padding: 1.5rem;
+    flex: 1 1 240px;
+    min-width: 0;
+}
+
+.card.destaque {
+    border-color: #b87336;
+}
+
+.etiqueta {
+    display: inline-block;
+    padding: .2rem .6rem;
+    border-radius: 2rem;
+    background-color: #f9ead9;
+    color: #784224;
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: 1rem;
+}
